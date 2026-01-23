@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: contamination-gauge-api
+    env: docker
+    envVars:
+      - key: API_KEYS
+        sync: false
+    healthCheckPath: /health
+    plan: free

@@ -2,8 +2,6 @@ services:
   - type: web
     name: contamination-gauge-api
     env: docker
-    dockerfilePath: ./be-fastapi/Dockerfile
-    dockerContext: ./be-fastapi
     envVars:
       - key: API_KEYS
         sync: false

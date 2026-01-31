@@ -29,3 +29,7 @@ example payload
 
 
 ---
+
+```
+score = score_coverage * 50 + edge_density * 35 + (texture_variance/128) * 15
+```

@@ -12,7 +12,7 @@ Tech stack:
 Demo: 
 <img src="samples/Dev/IMG_1738.PNG" alt="App Photo 1" width="240"/>
 <img src="samples/Dev/IMG_1740.PNG" alt="App Photo 1" width="240"/>
-<img src="samples/Dev/video.gif" alt="Demo" width="320">
+<!-- <img src="samples/Dev/video.gif" alt="Demo" width="320"> -->
 
 System diagram:
 ```mermaid

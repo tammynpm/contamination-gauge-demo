@@ -4,3 +4,4 @@ be-fastapi/.env.example
 .vscode/
 docs/
 mobile/node_modules
+samples/

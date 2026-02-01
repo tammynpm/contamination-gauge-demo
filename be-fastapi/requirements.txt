@@ -19,3 +19,8 @@ slowapi==0.1.9
 pytest==7.4.3
 httpx==0.25.2
 pytest-asyncio==0.21.1
+<<<<<<< HEAD
+=======
+
+gunicorn>=24.0.0
+>>>>>>> master

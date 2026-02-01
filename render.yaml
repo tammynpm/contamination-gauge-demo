@@ -1,11 +1,20 @@
 services:
   - type: web
     name: contamination-gauge-api
+<<<<<<< HEAD
     env: docker
     dockerfilePath: be-fastapi/Dockerfile
     dockerContext: be-fastapi
+=======
+    rootDir: be-fastapi
+    env: docker
+>>>>>>> master
     envVars:
       - key: API_KEYS
         sync: false
     healthCheckPath: /health
+<<<<<<< HEAD
     plan: free
+=======
+    plan: free
+>>>>>>> master

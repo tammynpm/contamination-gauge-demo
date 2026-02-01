@@ -16,6 +16,10 @@ class AnalysisMetrics(BaseModel):
 
 class AnalysisResponse(BaseModel):
     score: float = Field(..., ge=0, le=100, description="contamination score 0-100")
+<<<<<<< HEAD
+=======
+    label: str = Field(..., description="contamination level")
+>>>>>>> master
     baseline_id: str = Field(..., description="id of baseline")
     baseline_score: float = Field(..., description="expected score for baseline")
     delta: float = Field(...)

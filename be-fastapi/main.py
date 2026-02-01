@@ -39,10 +39,22 @@ app = FastAPI(
     version="0.1.0"
 )
 
+<<<<<<< HEAD
 app.state.limiter = limiter
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+=======
+origins = [
+    "http://localhost",
+    "http://localhost:8000"
+]
+
+app.state.limiter = limiter
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+>>>>>>> master
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]

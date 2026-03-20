@@ -1,5 +1,4 @@
-This is a mobile app 
-
+I built a mobile application with a backend pipeline that processes user-provided inputs to detect contamination for a job application. But they found the developer before I could turn my resume in lol. This project focused on designing the system to handle untrusted input and explored how it behaves under malformed and adversarial input. 
 
 Tech stack:
 - React Native
@@ -8,6 +7,9 @@ Tech stack:
 - OpenCV
 - SQLite
 - Docker
+
+Testing method:
+- send correupted data & unexpected payloads
 
 Demo: 
 <img src="samples/Dev/IMG_1738.PNG" alt="App Photo 1" width="240"/>

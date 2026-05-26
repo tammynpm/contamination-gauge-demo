@@ -34,3 +34,7 @@ flowchart LR
 
   B <--> C
 ```
+
+TODO:
+- [ ] deploy on k3s cluster
+

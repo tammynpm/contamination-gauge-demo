@@ -1,4 +1,4 @@
-I built a mobile application with a backend pipeline that processes user-provided inputs to detect contamination for a job application. But they found the developer before I could turn my resume in lol. This project focused on designing the system to handle untrusted input and explored how it behaves under malformed and adversarial input. 
+A mobile application with a backend pipeline that processes user-provided inputs to detect contamination with a focus on handling untrusted input. 
 
 Tech stack:
 - React Native
